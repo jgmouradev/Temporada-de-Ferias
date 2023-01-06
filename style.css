@@ -151,6 +151,9 @@ body{
         text-align: center;
         font-size: 1.5rem;
     }
+    .titulos{
+        text-align: center;
+    }
 }
 
 @media (min-width:426px) and (max-width:499px){
@@ -173,6 +176,9 @@ body{
         .aviso p{
             text-align: center;
             font-size: 1.5rem;
+        }
+        .titulos{
+            text-align: center;
         }
 }
 
@@ -197,6 +203,9 @@ body{
             text-align: center;
             font-size: 1.5rem;
         }
+        .titulos{
+            text-align: center;
+        }
    
 }
 @media(min-width:769px) and (max-width:1200px){
@@ -220,6 +229,9 @@ body{
         .aviso p{
             text-align: center;
             font-size: 1.5rem;
+        }
+        .titulos{
+            text-align: center;
         }
    
 }
