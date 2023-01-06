@@ -93,33 +93,6 @@ body{
     padding: 60px;
 }
 
-.cardsesc{
-    display: flex;
-    align-items: center;
-    margin: 20px;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
-    gap: 20px;
- 
- }
- .cardsesc-item{
-    background:#004e98;
-    color: #fff;
-    font-weight: 600;
-    border-radius: 10px;
- }
-.cardsesc-item img{
-    width: 330px;
-    object-fit:cover;
-    border-top-left-radius:10px;
-    border-top-right-radius: 10px;
-  }
-  .cardsesc-item p{
-    padding: 15px;
-    text-align: center;
-
-  }
-
 .card{
     display: flex;
     align-items: center;
@@ -153,7 +126,9 @@ body{
  footer{
     display: flex;
     justify-content: center;
-    padding: 60px;
+    padding: 25px;
+    background: orange;
+    color:#000;
  }
 
 /*Responsividade*/
