@@ -7,11 +7,18 @@
     list-style: none;
 }
 body{
-    background:#0466c8;
+    background:#f8f9fa;
+}
+.top{
+    background: url(images/24096-pagina-inicial-temporada.png);
+    width: 100%;
+    height:470px;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
  header h1{
     font-size: 4rem;
-    color: #dee2e6;
+    color: #004e98;
     padding: 80px 80px 30px 80px;
     
     display: flex;
@@ -23,14 +30,15 @@ body{
 .referencia h1 {
     font-size: 2rem;
     padding: 10px;
-    color: #dee2e6;
+    color: #004e98;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 .referencia p {
     font-size: 1.5rem;
-    color: #dee2e6;
+    color:#004e98;
+    font-weight: 400;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -42,7 +50,7 @@ body{
     padding: 25px;
 }
 .aviso p{
-    color: #dee2e6;
+    color: #004e98;
     font-size: 2rem;
     font-weight: 800;
 }
@@ -61,18 +69,21 @@ body{
 }
 .menu ul li{
     margin: 20px;
-    background-color:#ADB8C6;
+    background-color:orange;
+    color: black;
+    font-weight: 600;
     font-family: 'Roboto', sans-serif;
     padding: 20px;
     border-radius: 5px;
     cursor: pointer;
 }
 .menu ul li.active{
-    background:#fdc500;
-    color:#000;
+    background:#004e98;
+    color:#fff;
 }
 .menu a{
     color:snow;
+    
     
 }
 
@@ -86,18 +97,124 @@ body{
  
  }
  .card-item{
-    background:#dee2e6;
-    border-radius: 5px;
+    background:#004e98;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
  }
 .card-item img{
     width: 330px;
     object-fit:cover;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
   }
   .card-item p{
-    padding: 2px;
+    padding: 15px;
     text-align: center;
 
   }
  .card .card-item.hide{
     display: none;
  }
+
+ footer{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+ }
+
+/*Responsividade*/
+
+@media (min-width:320px) and (max-width:425px){
+   .top{
+    height: 220px;
+   }
+   header h1{
+    font-size: 2.5rem;
+    text-align: center;
+    }
+    .referencia h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .referencia p{
+        text-align: center;
+        margin: 25px;
+        font-size: 1rem;
+    }
+    .aviso p{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:426px) and (max-width:499px){
+    .top{
+        height: 220px;
+       }
+       header h1{
+        font-size: 2.5rem;
+        text-align: center;
+        }
+        .referencia h1{
+            font-size: 2.5rem;
+            text-align: center;
+        }
+        .referencia p{
+            text-align: center;
+            margin: 25px;
+            font-size: 1rem;
+        }
+        .aviso p{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+}
+
+@media(min-width:500px) and (max-width:768px){
+    .top{
+        height: 300px;
+       }
+       header h1{
+        font-size: 2.5rem;
+        text-align: center;
+        }
+        .referencia h1{
+            font-size: 2.5rem;
+            text-align: center;
+        }
+        .referencia p{
+            text-align: center;
+            margin: 25px;
+            font-size: 1rem;
+        }
+        .aviso p{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+   
+}
+@media(min-width:769px) and (max-width:1200px){
+    .top{
+        height: 340px;
+       }
+       header h1{
+        font-size: 3rem;
+        text-align: center;
+        }
+        .referencia h1{
+            font-size: 2rem;
+            padding: 25px;
+            text-align: center;
+        }
+        .referencia p{
+            text-align: center;
+            margin: 25px;
+            font-size: 1rem;
+        }
+        .aviso p{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+   
+}
