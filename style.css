@@ -115,10 +115,11 @@ body{
     border-top-right-radius: 10px;
   }
   .card-item p{
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 
   }
+  
  .card .card-item.hide{
     display: none;
  }
